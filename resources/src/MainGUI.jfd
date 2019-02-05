@@ -1,0 +1,42 @@
+JFDML JFormDesigner: "6.0.4.1.172" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundlePackage": "resources"
+	"i18n.bundleName": "values"
+	"i18n.keyPrefix": "Main"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space ::39:x, comp logsPanel::::334:x, space :p:25:p}, seq l {space :p:53:p, comp start_Server::::88:x, space ::125:x, comp stop_Server::::88:x, space :p:44:p}, seq l {space :p:65:p, comp label:::p:278:p, space ::55:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label:::p:54:p, space :::p, par l:::p {comp stop_Server::::38:x, comp start_Server::::38:x}, space u:::p, comp logsPanel::::134:x, space ::18:x}}"
+		} ) {
+			name: "this"
+			"background": sfield java.awt.SystemColor windowBorder
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "start_Server"
+				"text": "Start"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Shubzz\\Desktop\\Project\\Bank_Server\\resources\\icon.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "stop_Server"
+				"text": "Stop"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "logsPanel"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "logsText"
+					"editable": false
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label"
+				"text": "WELCOME"
+				"border": new javax.swing.border.MatteBorder( 1, 1, 1, 1, sfield java.awt.Color black )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 155, 95 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}

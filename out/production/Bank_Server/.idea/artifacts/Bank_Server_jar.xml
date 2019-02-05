@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bank_Server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bank_Server_jar</output-path>
+    <root id="archive" name="Bank_Server.jar">
+      <element id="module-output" name="Bank_Server" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jgoodies-forms.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jgoodies-common.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/annotations-16.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jdk-11.0.1/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jdk-11.0.1/lib/jrt-fs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/java-json/java-json.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JDBC Driver/sqlite-jdbc-3.23.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
